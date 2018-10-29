@@ -7,7 +7,7 @@
 5) give your VPC a name
 6) enter the CIDR block for your VPC (e.g 10.0.0.0/16) and click the "Yes,Create" button
 7) You have created a VPC! however it is empty and doesnt even have a gateway
-8) click on internet gatewatys in the navigation pane
+8) click on internet gateways in the navigation pane
 9) click on create internet gateway button
 10) enter name of your gateway and create
 11) select created gateway, click actions and select attach to VPC
@@ -25,8 +25,9 @@
 23) click create route table,give it a name and select the VPC it is for.
 24) select Route table from list and select edit button under Routes tab
 25) enter 0.0.0.0/0 into the Destination box and select the VPCs gateway from the Target box. click save
+26) select edit button under Subnet assoications tab and click the checkbox of which subnet you want to be public
 26) to add application security, select Security groups in the navigation pane
-27) click create security group
+27) click create security group 
 28) enter name and description for security group as well as what VPC its for, the click create
 29) select security group from list and click edit under inbound rules pane
 30) select connection type (http, ssh, etc.), enter 0.0.0.0/0 (for public access) under source, and enter a description.
